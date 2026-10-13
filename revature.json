@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/FilteringLogicTest.java",
+      "testCases": [
+        {
+          "methodName": "testActivityFindEmployeesAnd",
+          "label": "Verify filtering employees using AND conditions",
+          "description": "Runs problem1(), which should return only employees matching both filter conditions. Verifies that only Employee(id=3, Steve Jones) is returned."
+        },
+        {
+          "methodName": "testActivityFindEmployeesOr",
+          "label": "Verify filtering employees using OR conditions",
+          "description": "Runs problem2(), which should return employees who meet either of the OR conditions. Verifies that Alexa Smith and Brandon Smith are returned."
+        },
+        {
+          "methodName": "testActivityFindEmployeesNotIn",
+          "label": "Verify filtering employees using NOT IN logic",
+          "description": "Runs problem3(), which should return employees excluded from a specified set. Verifies that Adam Jones and Brandon Smith are returned."
+        }
+      ]
+    }
+  ]
+}
